@@ -28,6 +28,18 @@ module.exports = (app) => {
     })
   );
 
+
+
+  //TEST - LATER CHANGE TO ALLOW ACCESS COMING FROM PLACES OTHER THAN LOCAL HOST / FOR DEPLOYMENT
+  // app.use(
+  //   cors({
+  //     origin: ["http://localhost:3000", process.env.ORIGIN],
+  //   })
+  // );
+  //TEST
+
+
+
   // In development environment the app logs
   app.use(logger("dev"));
 
