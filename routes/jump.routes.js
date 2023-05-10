@@ -20,3 +20,6 @@ router.post('/jump', async (req, res, next) => {
         console.log(err)
     }
 });
+
+
+module.exports = router;
